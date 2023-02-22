@@ -19,3 +19,7 @@ This is going to help me log the elements and properties have worked and I can a
     <cite></cite> <!-- A URL for the src of the quotation may be given using the cite attribute, while the text rep of the src can be given using the "cite element"-->
 </blockquote> <!-- This element indicates that the enclosed text is an extented quotation-->
 
+<table> <!-- This element represents tabular data -that is, info presented in a two-dimensional table comprised of rows and columns of cells containing data-->
+<caption> <!--- This element specify the title of a table-->
+<thead> <tbody> <!---The thead and tbody elements are used to indicate which portion of your table is the header, and which portion contains the primary data or content.--->
+<tr> <td> <th> <!---The tr element is used to indicate a table row. The td element indicates a data cell, while the th element indicates a header cell.--->
