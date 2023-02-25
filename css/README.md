@@ -33,3 +33,7 @@ The calc() function is a CSS function that allows you to calculate a value based
 }
 
 The :nth-of-type() pseudo-selector is used to target specific elements based on their order among siblings of the same type.
+
+An absolute position takes the element out of that top-down document flow and allows you to adjust it relative to its container
+
+The z-index property is used to create "layers" for your HTML elements
