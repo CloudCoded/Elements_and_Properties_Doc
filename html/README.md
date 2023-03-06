@@ -23,3 +23,7 @@ This is going to help me log the elements and properties have worked and I can a
 <caption> <!--- This element specify the title of a table-->
 <thead> <tbody> <!---The thead and tbody elements are used to indicate which portion of your table is the header, and which portion contains the primary data or content.--->
 <tr> <td> <th> <!---The tr element is used to indicate a table row. The td element indicates a data cell, while the th element indicates a header cell.--->
+
+The i element is used for idiomatic text, or text that is separate from the "normal" text content. This could be for italic text, such as scientific terms, or for icons like those provided by FontAwesome.
+
+This special class is how FontAwesome determines which icon to load. fas indicates the category of icons (FontAwesome Solid, here), while fa-music selects the specific icon.
