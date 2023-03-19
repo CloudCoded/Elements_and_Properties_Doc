@@ -37,3 +37,5 @@ The :nth-of-type() pseudo-selector is used to target specific elements based on 
 An absolute position takes the element out of that top-down document flow and allows you to adjust it relative to its container
 
 The z-index property is used to create "layers" for your HTML elements
+
+The ::before selector creates a pseudo-element which is the first child of the selected element, while the ::after selector creates a pseudo-element which is the last child of the selected element. These pseudo-elements are often used to create cosmetic content, which you will see later in this project.
