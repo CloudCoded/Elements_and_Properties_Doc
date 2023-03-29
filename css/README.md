@@ -43,3 +43,12 @@ The ::before selector creates a pseudo-element which is the first child of the s
 The content property is used to set or override the content of the element. By default, the pseudo-elements created by the ::before and ::after pseudo-selectors are empty, and the elements will not be rendered to the page. Setting the content property to an empty string "" will ensure the element is rendered to the page while still being empty.
 
 The @media at-rule, also known as a media query, is used to conditionally apply CSS. Media queries are commonly used to apply CSS based on the viewport width using the max-width and min-width properties.
+
+
+Logical operators can be used to construct more complex media queries. The and logical operator is used to query two media conditions.
+
+For example, a media query that targets a display width between 500px and 1000px would be:
+
+@media (min-width: 500px) and (max-width: 1000px){
+
+}
