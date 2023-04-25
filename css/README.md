@@ -55,3 +55,6 @@ For example, a media query that targets a display width between 500px and 1000px
 
 
 To use a variable, put the variable name in parentheses with var in front of them like this: var(--variable-name). Whatever value you gave the variable will be applied to whatever property you use it on.
+
+
+variables are often declared in the :root selector. This is the highest level selector in CSS; putting your variables there will make them usable everywhere
