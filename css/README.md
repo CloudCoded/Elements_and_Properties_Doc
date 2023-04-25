@@ -52,3 +52,6 @@ For example, a media query that targets a display width between 500px and 1000px
 @media (min-width: 500px) and (max-width: 1000px){
 
 }
+
+
+To use a variable, put the variable name in parentheses with var in front of them like this: var(--variable-name). Whatever value you gave the variable will be applied to whatever property you use it on.
