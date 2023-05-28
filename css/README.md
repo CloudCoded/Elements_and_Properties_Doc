@@ -58,3 +58,5 @@ To use a variable, put the variable name in parentheses with var in front of the
 
 
 variables are often declared in the :root selector. This is the highest level selector in CSS; putting your variables there will make them usable everywhere
+
+Variables are primarily used with colors
