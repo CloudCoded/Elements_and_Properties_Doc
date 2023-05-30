@@ -28,4 +28,6 @@ The i element is used for idiomatic text, or text that is separate from the "nor
 
 This special class is how FontAwesome determines which icon to load. fas indicates the category of icons (FontAwesome Solid, here), while fa-music selects the specific icon.
 
-z-index => The z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.
+
+
+The loading attribute on an img element can be set to lazy to tell the browser not to fetch the image resource until it is needed (as in, when the user scrolls the image into view). As an additional benefit, lazy loaded elements will not load until the non-lazy elements are loaded - this means users with slow internet connections can view the content of your page without having to wait for the images to load
