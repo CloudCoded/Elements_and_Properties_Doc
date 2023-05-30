@@ -29,5 +29,6 @@ The i element is used for idiomatic text, or text that is separate from the "nor
 This special class is how FontAwesome determines which icon to load. fas indicates the category of icons (FontAwesome Solid, here), while fa-music selects the specific icon.
 
 
-
 The loading attribute on an img element can be set to lazy to tell the browser not to fetch the image resource until it is needed (as in, when the user scrolls the image into view). As an additional benefit, lazy loaded elements will not load until the non-lazy elements are loaded - this means users with slow internet connections can view the content of your page without having to wait for the images to load
+
+The Referer HTTP header contains information about the address or URL of a page that a user might be visiting from. This information can be used in analytics to track how many users from your page visit freecodecamp.org, for example. Setting the rel attribute to noreferrer omits this information from the HTTP request
