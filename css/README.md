@@ -60,3 +60,5 @@ To use a variable, put the variable name in parentheses with var in front of the
 variables are often declared in the :root selector. This is the highest level selector in CSS; putting your variables there will make them usable everywhere
 
 Variables are primarily used with colors
+
+z-index => The z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.
