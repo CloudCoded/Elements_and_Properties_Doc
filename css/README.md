@@ -62,3 +62,5 @@ variables are often declared in the :root selector. This is the highest level se
 Variables are primarily used with colors
 
 z-index => The z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.
+
+ CSS Grid offers a two-dimensional grid-based layout, allowing you to center items horizontally and vertically while still retaining control to do things like overlap elements.
